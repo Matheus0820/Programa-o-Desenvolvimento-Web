@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" style="width: 100%; height: 100%;">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" href="https://www.iconarchive.com/download/i132253/bootstrap/bootstrap/Bootstrap-cloud-fog2-fill.1024.png" type="image/png">
+
+    <title>Climax</title>
+  </head>
+  <body style="min-width: 100%; min-height: 100%;">
+
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand"><i class="bi bi-cloud-fog2-fill"></i> Climax</a>
+        <form class="d-flex" action="./homepage_cidades.html">
+          <button class="btn btn-outline-primary" type="submit" title="Voltar"><i class="bi bi-box-arrow-left"></i></button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="card text-white bg-dark text-center" style="max-width: 500px; max-height: 50px; position: relative; left: calc(50% - 250px); top: 50px">
+      <div class="card-body">
+        <h4 id="nome_cidade" style="font-size: medium;"></h4>
+      </div>
+    </div>
+    
+    <div id="carouselExampleCaptions" class="carousel slide text-center" data-bs-ride="carousel" style="max-width: 500px; max-height: 500px; position: relative; left: calc(50% - 250px); top: 48px;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../scripts/previsoes.js"></script>
+  </body>
+</html>

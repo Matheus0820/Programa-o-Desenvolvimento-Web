@@ -1,0 +1,10 @@
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route("/")
+def homepage():
+    app.config.from_pyfile('scripts/query.js', silent=True)
+    return render_template('homepage.html')
+
+app.run()
